@@ -1,0 +1,80 @@
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 20px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+
+div.card{
+    border-color: #e86c3e;
+    box-shadow: 5px 5px 10px 1px black;
+}
+
+#conct{
+    text-align: center;
+    padding: 30px;
+}
+
+#btnc, #btnw, #btng{
+    color:#e86c3e;
+    margin: 0px 30px 0px 30px;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    border-color: #e86c3e;
+    background-color: #c2f195;
+}
+
+.undefined{
+    color:#e86c3e;
+    margin: 0px 30px 0px 30px;
+    padding: 15px;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    border-color: #e86c3e;
+    background-color: #c2f195;
+    text-decoration: none;
+    border: 2px solid #e86c3e
+}
+
+.container-fluid{
+    padding: 25px;
+    flex-direction: column;
+    background-color: #c2f195;
+}
+
+.bg-light{
+    padding: 0px;
+}
+
+#selected-products-container{
+    text-align: center;
+    padding: 30px;
+}
+
+#selected-products-container img{
+    height: 100px;
+    width: 150px;
+}
+
+#clear{
+    color:#e86c3e;
+    margin: 10px 30px 10px 30px;
+    height: 35px;
+    width: 70px;
+    border-radius: 25px;
+    border-color: #e86c3e;
+    background-color: #c2f195;
+    border: 2px solid #e86c3e
+}
